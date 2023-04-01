@@ -37,7 +37,7 @@
     "react-dom": "^16.14.0",
     "react-hot-loader": "^4.8.5",
     "react-redux": "^8.0.5",
-    "react-widgets": "^4.4.7",
+    "react-widgets": "^5.8.4",
     "redux": "4.2.0",
     "style-loader": "^0.23.1",
     "throttle-debounce": "^5.0.0",

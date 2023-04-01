@@ -1676,6 +1676,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.6.3, @babel/runtime@npm:^7.8.7":
+  version: 7.21.0
+  resolution: "@babel/runtime@npm:7.21.0"
+  dependencies:
+    regenerator-runtime: ^0.13.11
+  checksum: 7b33e25bfa9e0e1b9e8828bb61b2d32bdd46b41b07ba7cb43319ad08efc6fda8eb89445193e67d6541814627df0ca59122c0ea795e412b99c5183a0540d338ab
+  languageName: node
+  linkType: hard
+
 "@babel/template@npm:^7.1.0, @babel/template@npm:^7.1.2, @babel/template@npm:^7.2.2, @babel/template@npm:^7.4.0, @babel/template@npm:^7.4.4":
   version: 7.4.4
   resolution: "@babel/template@npm:7.4.4"
@@ -1851,7 +1860,7 @@ __metadata:
     react-tabs: 3.0.0
     react-test-renderer: ^17.0.2
     react-tooltip: ^4.2.21
-    react-widgets: ^4.4.4
+    react-widgets: ^5.8.4
     redux-undo: ^1.0.0-beta9
     scroll: ^3.0.1
     shortid: ^2.2.13
@@ -3187,6 +3196,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@restart/hooks@npm:^0.4.5":
+  version: 0.4.9
+  resolution: "@restart/hooks@npm:0.4.9"
+  dependencies:
+    dequal: ^2.0.2
+  peerDependencies:
+    react: ">=16.8.0"
+  checksum: 2481b21ee984328f41134d94c23b244aff0b82091b9ae6252b9ec9408634bed13473e2e74959c898a198b88602521a021f1c1b9683d52cf0878fea6e0f2b47df
+  languageName: node
+  linkType: hard
+
 "@sinclair/typebox@npm:^0.24.1":
   version: 0.24.31
   resolution: "@sinclair/typebox@npm:0.24.31"
@@ -4058,6 +4078,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/classnames@npm:^2.3.1":
+  version: 2.3.1
+  resolution: "@types/classnames@npm:2.3.1"
+  dependencies:
+    classnames: "*"
+  checksum: 09a17ea08fcb83380921efdfdac94cfa162f87025cae0bf6f4ba508c2fa5f436459ce7612905a3f968fdddb68c03b8e6ff08e762ed2d0c110c5c4fceb244dc55
+  languageName: node
+  linkType: hard
+
 "@types/color-convert@npm:^2.0.0":
   version: 2.0.0
   resolution: "@types/color-convert@npm:2.0.0"
@@ -4407,6 +4436,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-transition-group@npm:^4.4.4":
+  version: 4.4.5
+  resolution: "@types/react-transition-group@npm:4.4.5"
+  dependencies:
+    "@types/react": "*"
+  checksum: 265f1c74061556708ffe8d15559e35c60d6c11478c9950d3735575d2c116ca69f461d85effa06d73a613eb8b73c84fd32682feb57cf7c5f9e4284021dbca25b0
+  languageName: node
+  linkType: hard
+
 "@types/react@npm:*":
   version: 17.0.27
   resolution: "@types/react@npm:17.0.27"
@@ -4415,6 +4453,17 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: 3a1147d963c16dc9bbea5afb20c4be94f2389cf4eca4c5fbe9b02f3406bd9957602c0459ea017c95f8c3d523221f572e8bd842f94654835776d4c2923357f9dc
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:>=16.9.11":
+  version: 18.0.31
+  resolution: "@types/react@npm:18.0.31"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: 6befbd5587e266905b50fd6bbd7c1cacd557bddf99e6a9862ca2f1d06df3dca71b9d485a37d010479730f021aab93b852d417c714de5efc2f41be0ff4c09b4db
   languageName: node
   linkType: hard
 
@@ -8148,7 +8197,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"classnames@npm:^2.2.0, classnames@npm:^2.2.5, classnames@npm:^2.2.6":
+"classnames@npm:*, classnames@npm:^2.3.1":
+  version: 2.3.2
+  resolution: "classnames@npm:2.3.2"
+  checksum: 2c62199789618d95545c872787137262e741f9db13328e216b093eea91c85ef2bfb152c1f9e63027204e2559a006a92eb74147d46c800a9f96297ae1d9f96f4e
+  languageName: node
+  linkType: hard
+
+"classnames@npm:^2.2.0, classnames@npm:^2.2.5":
   version: 2.2.6
   resolution: "classnames@npm:2.2.6"
   checksum: 09a4fda780158aa8399079898eabeeca0c48c28641d9e4de140db7412e5e346843039ded1af0152f755afc2cc246ff8c3d6f227bf0dcb004e070b7fa14ec54cc
@@ -9462,10 +9518,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-arithmetic@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "date-arithmetic@npm:3.1.0"
-  checksum: 9c2d9094b9fd9d861afc2a63c2bc9d279b742d3911ab3790523afb66ef82723240cf5d369ea7afd372ba290dd74fad8b20d87edb7c2235af7f95cd0c51a64252
+"date-arithmetic@npm:^4.0.1":
+  version: 4.1.0
+  resolution: "date-arithmetic@npm:4.1.0"
+  checksum: 656c099864d09dd7f6246e6ff1ce23870615fda80b21d302abb6c4223969a3ff32a8a5e7791b1021ca3bb596e1ced7e9924fabde1eacd50a0903424ad09df876
   languageName: node
   linkType: hard
 
@@ -9744,6 +9800,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dequal@npm:^2.0.2":
+  version: 2.0.3
+  resolution: "dequal@npm:2.0.3"
+  checksum: 8679b850e1a3d0ebbc46ee780d5df7b478c23f335887464023a631d1b9af051ad4a6595a44220f9ff8ff95a8ddccf019b5ad778a976fd7bbf77383d36f412f90
+  languageName: node
+  linkType: hard
+
 "des.js@npm:^1.0.0":
   version: 1.0.0
   resolution: "des.js@npm:1.0.0"
@@ -10002,7 +10065,7 @@ __metadata:
     react-dom: ^16.14.0
     react-hot-loader: ^4.8.5
     react-redux: ^8.0.5
-    react-widgets: ^4.4.7
+    react-widgets: ^5.8.4
     redux: 4.2.0
     style-loader: ^0.23.1
     throttle-debounce: ^5.0.0
@@ -10067,12 +10130,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dom-helpers@npm:^3.3.1, dom-helpers@npm:^3.4.0":
-  version: 3.4.0
-  resolution: "dom-helpers@npm:3.4.0"
+"dom-helpers@npm:^5.0.1, dom-helpers@npm:^5.2.1":
+  version: 5.2.1
+  resolution: "dom-helpers@npm:5.2.1"
   dependencies:
-    "@babel/runtime": ^7.1.2
-  checksum: 58d9f1c4a96daf77eddc63ae1236b826e1cddd6db66bbf39b18d7e21896d99365b376593352d52a60969d67fa4a8dbef26adc1439fa2c1b355efa37cacbaf637
+    "@babel/runtime": ^7.8.7
+    csstype: ^3.0.2
+  checksum: 863ba9e086f7093df3376b43e74ce4422571d404fc9828bf2c56140963d5edf0e56160f9b2f3bb61b282c07f8fc8134f023c98fd684bddcb12daf7b0f14d951c
   languageName: node
   linkType: hard
 
@@ -11360,7 +11424,7 @@ __metadata:
     react-redux: 8.0.5
     react-tabs: 3.0.0
     react-tooltip: 4.2.21
-    react-widgets: 4.4.6
+    react-widgets: 5.8.4
     redux: 4.2.0
     redux-devtools: 3.5.0
     redux-devtools-dock-monitor: 1.2.0
@@ -18666,7 +18730,7 @@ fsevents@^1.2.7:
     react-dom: ^16.14.0
     react-hot-loader: 4.8.5
     react-test-renderer: ^17.0.2
-    react-widgets: 4.4.7
+    react-widgets: 5.8.4
     string.prototype.startswith: 1.0.0
     style-loader: ^0.23.1
     throttle-debounce: ^5.0.0
@@ -19843,15 +19907,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"prop-types-extra@npm:^1.0.1":
-  version: 1.1.0
-  resolution: "prop-types-extra@npm:1.1.0"
+"prop-types-extra@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "prop-types-extra@npm:1.1.1"
   dependencies:
     react-is: ^16.3.2
-    warning: ^3.0.0
+    warning: ^4.0.0
   peerDependencies:
     react: ">=0.14.0"
-  checksum: 529707ee620919f02ece66b42b8274aa22856a12981b8b273d238d9d55307f2f3cea9697e654102a504d71f7152f1e09348c2c64367f74eb07c83a3426d2224b
+  checksum: ebf1c048687bb538457f91a3610abb36ca0f50587a6afae80443a9e65b9db96882d18c3511175a8967fad4ca5dcd804913bbc241d7b5160c74cf69aacdd054f0
   languageName: node
   linkType: hard
 
@@ -20251,19 +20315,6 @@ fsevents@^1.2.7:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
   checksum: aaffa002d9372f692238a29229ff1e991d6d0077f4f83dcdf88ad3106a0737aa56e415a71b91fb585f8532e04f09d3f0fabbc5cd8291137206dc3c1a0d70674f
-  languageName: node
-  linkType: hard
-
-"react-component-managers@npm:^3.1.0":
-  version: 3.2.2
-  resolution: "react-component-managers@npm:3.2.2"
-  dependencies:
-    prop-types: ^15.6.1
-    spy-on-component: ^1.1.0
-  peerDependencies:
-    react: ">=15.3.0"
-    react-dom: ">=15.3.0"
-  checksum: 2f5907380646ba9225f0b7a823adb3d32fa66ff3050f166b126fbb644f07628e095d58d077567a6e23de13a6aa99781e80f37c7ad338885940cb7faa2a96d8cc
   languageName: node
   linkType: hard
 
@@ -20888,81 +20939,39 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-transition-group@npm:^2.4.0":
-  version: 2.9.0
-  resolution: "react-transition-group@npm:2.9.0"
+"react-transition-group@npm:^4.4.2":
+  version: 4.4.5
+  resolution: "react-transition-group@npm:4.4.5"
   dependencies:
-    dom-helpers: ^3.4.0
+    "@babel/runtime": ^7.5.5
+    dom-helpers: ^5.0.1
     loose-envify: ^1.4.0
     prop-types: ^15.6.2
-    react-lifecycles-compat: ^3.0.4
   peerDependencies:
-    react: ">=15.0.0"
-    react-dom: ">=15.0.0"
-  checksum: d8c9e50aabdc2cfc324e5cdb0ad1c6eecb02e1c0cd007b26d5b30ccf49015e900683dd489348c71fba4055858308d9ba7019e0d37d0e8d37bd46ed098788f670
+    react: ">=16.6.0"
+    react-dom: ">=16.6.0"
+  checksum: 75602840106aa9c6545149d6d7ae1502fb7b7abadcce70a6954c4b64a438ff1cd16fc77a0a1e5197cdd72da398f39eb929ea06f9005c45b132ed34e056ebdeb1
   languageName: node
   linkType: hard
 
-"react-widgets@npm:4.4.6":
-  version: 4.4.6
-  resolution: "react-widgets@npm:4.4.6"
+"react-widgets@npm:5.8.4, react-widgets@npm:^5.8.4":
+  version: 5.8.4
+  resolution: "react-widgets@npm:5.8.4"
   dependencies:
-    classnames: ^2.2.6
-    date-arithmetic: ^3.1.0
-    dom-helpers: ^3.3.1
-    invariant: ^2.2.4
-    prop-types-extra: ^1.0.1
-    react-component-managers: ^3.1.0
-    react-lifecycles-compat: ^3.0.4
-    react-transition-group: ^2.4.0
-    uncontrollable: ^5.0.0
-    warning: ^3.0.0
+    "@restart/hooks": ^0.4.5
+    "@types/classnames": ^2.3.1
+    "@types/react-transition-group": ^4.4.4
+    classnames: ^2.3.1
+    date-arithmetic: ^4.0.1
+    dom-helpers: ^5.2.1
+    prop-types-extra: ^1.1.1
+    react-transition-group: ^4.4.2
+    tiny-warning: ^1.0.3
+    uncontrollable: ^7.2.1
   peerDependencies:
-    react: ">=0.14.0"
-    react-dom: ">=0.14.0"
-  checksum: 05e2c143eb691c4f68387de7888bc54aba3ee98571fc58e1ae166085f40487333e22e2d3a808648cd1e42aebbeb2ff0e25009f5fcc47203b14a50dc9603b012d
-  languageName: node
-  linkType: hard
-
-"react-widgets@npm:4.4.7":
-  version: 4.4.7
-  resolution: "react-widgets@npm:4.4.7"
-  dependencies:
-    classnames: ^2.2.6
-    date-arithmetic: ^3.1.0
-    dom-helpers: ^3.3.1
-    invariant: ^2.2.4
-    prop-types-extra: ^1.0.1
-    react-component-managers: ^3.1.0
-    react-lifecycles-compat: ^3.0.4
-    react-transition-group: ^2.4.0
-    uncontrollable: ^5.0.0
-    warning: ^3.0.0
-  peerDependencies:
-    react: ">=0.14.0"
-    react-dom: ">=0.14.0"
-  checksum: df65f798745fb71c3f24d291a24396c5b75127964381ca87e0e43973e4264befa8e3e82687096f75bc394081086de043284bf9b70c22c08a0cb2f0ed7d0f9e3a
-  languageName: node
-  linkType: hard
-
-"react-widgets@npm:^4.4.4, react-widgets@npm:^4.4.6, react-widgets@npm:^4.4.7":
-  version: 4.4.11
-  resolution: "react-widgets@npm:4.4.11"
-  dependencies:
-    classnames: ^2.2.6
-    date-arithmetic: ^3.1.0
-    dom-helpers: ^3.3.1
-    invariant: ^2.2.4
-    prop-types-extra: ^1.0.1
-    react-component-managers: ^3.1.0
-    react-lifecycles-compat: ^3.0.4
-    react-transition-group: ^2.4.0
-    uncontrollable: ^5.0.0
-    warning: ^3.0.0
-  peerDependencies:
-    react: ">=0.14.0"
-    react-dom: ">=0.14.0"
-  checksum: c5cacc95b5656f4b4b23d939e06795d8dcd3ba5bbdf59c0c626d9a7b2ccf13a74109b57d2928ece708520675b2479bc8a1c791a803e0539c9bbbaac24cce61ef
+    react: ">=0.16.0"
+    react-dom: ">=0.16.0"
+  checksum: 3fe64445c04539e3ac9f82a1ff8a24ffdf5d3669e2e78be6bea6213c989cc6d613ac8714ede72b792fc99388ed2946d6d6240c04dd22f803a90683c8d10c1928
   languageName: node
   linkType: hard
 
@@ -21984,7 +21993,7 @@ resolve@^1.20.0:
     react-click-outside: ^3.0.1
     react-dom: ^16.14.0
     react-hot-loader: 4.8.5
-    react-widgets: ^4.4.6
+    react-widgets: ^5.8.4
     style-loader: 0.23.1
     throttle-debounce: 5.0.0
     url-loader: 1.1.2
@@ -23254,13 +23263,6 @@ resolve@^1.20.0:
   languageName: node
   linkType: hard
 
-"spy-on-component@npm:^1.1.0":
-  version: 1.1.2
-  resolution: "spy-on-component@npm:1.1.2"
-  checksum: 252be386233b0916b877b74a152958d012019a8449125619d54f0f1c895fd5c829474e2a9bdb8b633506a61211a3ca2c3b03c6757965fd25ee6d22f9c640ff03
-  languageName: node
-  linkType: hard
-
 "ssri@npm:9.0.1, ssri@npm:^9.0.0":
   version: 9.0.1
   resolution: "ssri@npm:9.0.1"
@@ -24301,6 +24303,13 @@ resolve@^1.20.0:
   languageName: node
   linkType: hard
 
+"tiny-warning@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "tiny-warning@npm:1.0.3"
+  checksum: da62c4acac565902f0624b123eed6dd3509bc9a8d30c06e017104bedcf5d35810da8ff72864400ad19c5c7806fc0a8323c68baf3e326af7cb7d969f846100d71
+  languageName: node
+  linkType: hard
+
 "tmp@npm:^0.0.33":
   version: 0.0.33
   resolution: "tmp@npm:0.0.33"
@@ -24742,14 +24751,17 @@ resolve@^1.20.0:
   languageName: node
   linkType: hard
 
-"uncontrollable@npm:^5.0.0":
-  version: 5.1.0
-  resolution: "uncontrollable@npm:5.1.0"
+"uncontrollable@npm:^7.2.1":
+  version: 7.2.1
+  resolution: "uncontrollable@npm:7.2.1"
   dependencies:
+    "@babel/runtime": ^7.6.3
+    "@types/react": ">=16.9.11"
     invariant: ^2.2.4
+    react-lifecycles-compat: ^3.0.4
   peerDependencies:
     react: ">=15.0.0"
-  checksum: ad616862f097171d643843044682be4a8408c20fa61d3e244852e511be6349e7740df0953d0da131da1db928d07b6f7f006b7e0c76abc21f22aa3a2123da0106
+  checksum: 3345c0c1916193ddb9cc6f2b78711dc9f22b919d780485e15b95690722e9d1797fc702c4ebb30c0acaae6a772b865d0a9ddc83fa1da44958f089aee78f2f5eab
   languageName: node
   linkType: hard
 
@@ -25122,7 +25134,7 @@ resolve@^1.20.0:
     react-dom: ^16.14.0
     react-hot-loader: 4.8.5
     react-redux: ^8.0.5
-    react-widgets: ^4.4.6
+    react-widgets: ^5.8.4
     redux: ^4.0.1
     redux-devtools: ^3.5.0
     redux-devtools-dock-monitor: ^1.1.3
@@ -25412,7 +25424,7 @@ resolve@^1.20.0:
   languageName: node
   linkType: hard
 
-"warning@npm:^4.0.2, warning@npm:^4.0.3":
+"warning@npm:^4.0.0, warning@npm:^4.0.2, warning@npm:^4.0.3":
   version: 4.0.3
   resolution: "warning@npm:4.0.3"
   dependencies:
